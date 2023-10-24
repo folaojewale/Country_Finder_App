@@ -1,0 +1,92 @@
+
+.layout-details {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(2, 2, 2, 0.1);
+  font-family: 'Lucida Sans Unicode';
+  background: #ffffff;
+}
+
+
+.flag {
+  margin-right: 20px;
+  max-width: 120px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.flag img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  flex: 1;
+}
+
+.info p {
+  margin: 5px 0;
+  
+}
+.info strong {
+    color: #c73cbb;
+}
+
+.searchBox{
+  position: relative;
+  text-align: center; 
+  padding: 20px; 
+  margin-top: 20vh;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+  background-color: #e7e6e7;
+}
+
+
+button[type="submit"] {
+  background-color: #c73cbb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #a11696;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+}
+
+
+.title{
+  position: absolute;
+  top: 5%;
+  text-align: center;
+}
+
+.message{
+  position: relative;
+  top: 18%;
+  left: 45%;
+  text-align: center;
+}
