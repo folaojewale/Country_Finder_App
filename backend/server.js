@@ -1,6 +1,7 @@
 require('dotenv').config()
 
 const express = require('express')
+const cors = require('cors')
 
 const countryRoute = require('./routes/country')
 
@@ -15,6 +16,8 @@ app.use((req, res, next) => {
 
 // middleware
 app.use(express.json())
+app.use(cors())
+
 
 //routes
 app.use('/findCountry', countryRoute)
